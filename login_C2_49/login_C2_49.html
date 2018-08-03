@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>LOGIN PAGE</title>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<style>
+body{
+color: white;
+background: url('image/cover.jpg');
+background-size: cover;
+font-size:150%;
+}
+
+.font{
+font-size:150%; font-family:Open Sans; color:white;  text-align: center;
+}
+
+form{margin: auto; width:50%; background-color:69.4, 69.4, 69.4;  border:	#AAF0D1; border-style:groove;  }
+.form-control{margin-right:40px;  width:80%;}
+
+#lol{font-size:60%;}
+
+button {
+    background-color: #4CAF50;  align: middle;
+    color: white;
+    padding: 5px 8px;
+    margin: 40px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 5px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+</style>
+
+</head>
+
+
+
+
+
+<body>
+
+<h1 class="font">LOGIN PAGE</h1>
+
+<form class="font" name="MY Form" action="Login">
+<div class=" ">
+Username<input type="text" placeholder="Enter Username" name="text1">
+<p></p></div>
+
+<div class=" ">
+<br>Password <input type="password" placeholder="Enter Password" name="psw">
+<br>
+<p></p></div>
+ <button type="submit">Login</button>
+
+    <label id="lol">
+      <input type="checkbox" checked="checked" name="remember" > Remember me
+    </label>
+  </div>
+
+  <div id="lol" >
+
+    <span class="psw" style="float:right"> <a href="#">Forgot password?</a></span>
+  </div>
+
+
+</form>
+</body>
+
+</html>
