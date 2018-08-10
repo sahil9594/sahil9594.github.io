@@ -69,16 +69,16 @@ input[type=text], input[type=password] {
 
 <h1 class="font">LOGIN PAGE</h1>
 
-<form class="font" name="MY Form" action="Login">
+<form class="font" name="login" onSubmit="return validation()">
 <div class=" ">
-Username<input id="font-basic" type="text" placeholder="Enter Username" name="text1">
+Username<input id="font-basic" type="text" placeholder="Enter Username" name="uname" value="">
 <p></p></div>
 
 <div class=" ">
-<br>Password <input id="font-basic" type="password" placeholder="Enter Password" name="psw">
+<br>Password <input id="font-basic" type="password" placeholder="Enter Password" name="psw" value="">
 <br>
 <p></p></div>
- <button type="submit">Login</button>
+ <button type="submit" value="Submit">Login</button>
 
     <label id="lol">
       <input type="checkbox" checked="checked" name="remember" > Remember me
@@ -92,6 +92,23 @@ Username<input id="font-basic" type="text" placeholder="Enter Username" name="te
 
 
 </form>
+ 
+<script>
+function validation(){
+    var uname = document.login.uname.value;
+    var pwd = document.login.pwd.value;
+    if(uname==""){
+    alert("username required");
+     return;
+    }
+    if(pwd==""){
+    alert("password is required");
+     return;
+    }   
+ 
+ 
+} 
+</script>
 </body>
 
 </html>
