@@ -69,7 +69,7 @@ input[type=text], input[type=password] {
 
 <h1 class="font">LOGIN PAGE</h1>
 
-<form class="font" name="login" onSubmit="return validation()">
+<form class="font" name="login" onSubmit="return validation();">
  </br>
 <div class=" ">
 Username<input id="font-basic" type="text" placeholder="Enter Username" name="uname" value="">
@@ -97,8 +97,8 @@ Username<input id="font-basic" type="text" placeholder="Enter Username" name="un
 <script type="text/javascript">
 function validation(){
     var uname = document.login.uname.value;
-    var pwd = document.login.pwd.value;
-    if(uname=="" || pwd==""){
+    var pwd = document.login.psw.value;
+    if(uname=="" || psw==""){
     alert("username & password required");
      return;
     }
