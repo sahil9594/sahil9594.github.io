@@ -1,28 +1,19 @@
 <!DOCTYPE html>
-<html>
-	<style>
+<html>	<style>
 		body {
 		background-image: url("https://images.pexels.com/photos/1366942/pexels-photo-1366942.jpeg?auto=compress&cs=tinysrgb&h=350");
-			background-size: cover;	color: 	FFFFFF;		}
-	</style>
+			background-size: cover;	color: 	FFFFFF;		}	</style>
 	<body style="text-align:center;">
 		<h1 style="padding-top:45px; color: FFFFFF;">Celcius to Fahrenheit and farenheit to celcius conversion</h1>	
 		<div style="padding-top:20px; color: white;">			<input id="c" onkeyup="convert('c')" style="margin-top:40px"><br>Degrees Celsius<br><br>
-			<input id="f" onkeyup="convert('f')" style="margin-top:40px"><br>Degrees Fahrenheit<br>
- 
-		</div>
+			<input id="f" onkeyup="convert('f')" style="margin-top:40px"><br>Degrees Fahrenheit<br>		</div>
 		<script>
 			function convert(degree) {
 					var x;
 					if (degree == "c") {
 						 x =document.getElementById("c").value * 9 / 5 + 32;
-						document.getElementById("f").value =Math.round(x);
-						} 
+						document.getElementById("f").value =Math.round(x);	} 
 					else {
 						x = (document.getElementById("f").value -32) * 5 / 9;
-						document.getElementById("c").value = Math.round(x);
-					}
-					}
-		</script>
-	</body>
-</html
+						document.getElementById("c").value = Math.round(x);	}
+			}		</script></body></html>
