@@ -8,6 +8,7 @@
 #222629 (dark grey)
 #f7f7f7 (light gray)
 */
+body{  background-color: #f7f7f7;}
 #titlebar{
 	background-color:#121854;
 	position: static;
@@ -186,7 +187,7 @@ textarea {
   left: 0;
   width: 600px;
   height: 500px;
-  background-color: #f7f7f7;
+  background-color: white;
   border-radius: 3px;
   padding: 15px;
 }
