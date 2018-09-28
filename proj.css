@@ -6,6 +6,7 @@
 #121854 (navy blue)
 #7F7F7F (light grey)
 #222629 (dark grey)
+#f7f7f7 (light gray)
 */
 #titlebar{
 	background-color:#121854;
@@ -185,7 +186,7 @@ textarea {
   left: 0;
   width: 600px;
   height: 500px;
-  background-color: white;
+  background-color: #f7f7f7;
   border-radius: 3px;
   padding: 15px;
 }
