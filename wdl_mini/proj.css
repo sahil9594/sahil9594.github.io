@@ -1,0 +1,193 @@
+/*Colors Used:
+#FF0000 (pure red)
+#FF3232 (light red)
+#2A07EC (bright blue)
+#198C19 (green)
+#121854 (navy blue)
+#7F7F7F (light grey)
+#222629 (dark grey)
+
+#154360 (darker blue)
+#FF0000 (faded red)
+*/
+#titlebar{
+	background-color:#154360;
+	position: static;
+	height: 65px;
+	width: 100%
+}
+#navigation{
+	position: static;
+	width:100%;
+	height: 35px;
+	background-color: #222629;
+	color: white;
+}
+p{
+	color: #154360;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+h5{
+	font-family: verdana; 
+	font-size: 15px;
+	color: white;
+}
+h6{
+	font-family: verdana; 
+	font-size: 12px;
+	color: white;
+}
+/*For submit, login, register, etc.*/
+button{
+    align-content: center;
+    background-color: #154360;
+    border: 1px solid #154360;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.button1:hover{
+	border: 1px solid #154360;
+	background-color: white;
+    color: #154360;
+}
+.button1{
+    transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2{
+    
+    transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #222629;
+    transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2:hover{
+	border: 1px solid #7F7F7F;
+	background-color: #7F7F7F;
+    color: white;
+}
+.button3{  
+    transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #222629;
+    transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3:hover{
+	border: 1px solid #FF0000;
+	background-color: #FF0000;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 500px;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+input[type=checkbox] {
+    width: auto;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type=radio] {
+    width: auto;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type=phone] {
+    width: auto;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+input[type=dropdown] {
+    width: auto;
+    padding: 7px 7px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=reset]{
+    align-content: center;
+    background-color: white;
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+input[type=submit]{
+    align-content: center;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+textarea {
+    width: 100%;
+    height: 75px;
+    padding: 7px 7px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    resize: none;
+}
+.center-div
+{
+  position: static;
+  margin: auto;
+  top: 225px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 500px;
+  background-color:#154360;
+  border-radius: 3px;
+  padding: 15px;
+}
+.footer{
+	height: 80px;
+	background-color: #222629;
+	width: 100%;
+	position: static;
+}
+
+
