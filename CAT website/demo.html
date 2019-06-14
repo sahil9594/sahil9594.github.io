@@ -3,23 +3,129 @@
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="demo.css">	
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	</head>
 	<body>
-<div class="topnav" id="myTopnav">
+<div class="topnav" id="topnav">
   <a href="#home" class="active">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
   <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 
+<div class="parallax">
+	
+		<p style="color: white; size: 29px; border: 10px; padding: 39px;">TCP (Transmission Control Protocol)
+TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+<br><br>
+	
+</div>
+
+<p>TCP (Transmission Control Protocol)
+TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+<br><br>
+User Datagram Protocol (UDP)
+UDP is used to send short messages called datagrams but overall, it is an unreliable, connectionless protocol.
+<br><br>
+Domain Name Servers (DNS)
+ are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses
+<br><br>
+Wireshark uses colors to help you identify the types of traffic at a glance. By default, green is TCP traffic, dark blue is DNS traffic, light blue is UDP traffic, and black identifies TCP packets with problems — for example, they could have been delivered out-of-order.
+<br><br>
+sudo apt-get install wireshark
+
+<br><br>
+whois
+resistrarant id address mobile no 
+updated date
+creation date
+<br><br>
+pow( ) function in C is used to find the power of the given number. ”math.h” header file supports pow( ) function in C language. Syntax for pow( ) function in C is given below.
+<br><br>
+CD change dictionary
+ls files in dictionary
+TCP (Transmission Control Protocol)
+TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+<br><br>
+User Datagram Protocol (UDP)
+UDP is used to send short messages called datagrams but overall, it is an unreliable, connectionless protocol.
+<br><br>
+Domain Name Servers (DNS)
+ are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses
+<br><br>
+Wireshark uses colors to help you identify the types of traffic at a glance. By default, green is TCP traffic, dark blue is DNS traffic, light blue is UDP traffic, and black identifies TCP packets with problems — for example, they could have been delivered out-of-order.
+<br><br>
+sudo apt-get install wireshark
+
+<br><br>
+whois
+resistrarant id address mobile no 
+updated date
+creation date
+<br><br>
+pow( ) function in C is used to find the power of the given number. ”math.h” header file supports pow( ) function in C language. Syntax for pow( ) function in C is given below.
+<br><br>
+TCP (Transmission Control Protocol)
+TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+<br><br>
+User Datagram Protocol (UDP)
+UDP is used to send short messages called datagrams but overall, it is an unreliable, connectionless protocol.
+<br><br>
+Domain Name Servers (DNS)
+ are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses
+<br><br>
+Wireshark uses colors to help you identify the types of traffic at a glance. By default, green is TCP traffic, dark blue is DNS traffic, light blue is UDP traffic, and black identifies TCP packets with problems — for example, they could have been delivered out-of-order.
+<br><br>
+sudo apt-get install wireshark
+
+<br><br>
+whois
+resistrarant id address mobile no 
+updated date
+creation date
+<br><br>
+pow( ) function in C is used to find the power of the given number. ”math.h” header file supports pow( ) function in C language. Syntax for pow( ) function in C is given below.
+<br><br>
+TCP (Transmission Control Protocol)
+TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+<br><br>
+User Datagram Protocol (UDP)
+UDP is used to send short messages called datagrams but overall, it is an unreliable, connectionless protocol.
+<br><br>
+
+
+
+</p>
+<br><br>
 <script type="text/javascript">
-	/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("topnav").style.top = "0";
+  } else {
+    document.getElementById("topnav").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-  var x = document.getElementById("myTopnav");
+  var x = document.getElementById("topnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
