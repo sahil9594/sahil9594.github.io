@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="finalnav.css"> 
+  <link rel="stylesheet" href="assets/css/sal.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+</head>
+
+<header>
+
+</header>
+<body >
+
+  <div class="topnav sticky-top" id="myTopnav">
+
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <div class="dropd">
+      <button class="dropbtn">Dropd 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropd-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> 
+    <a href="#about">About</a>
+    <a href="#home" class="active button pulse-btn">Mock Test</a>
+    <!-- <a href="#contact"><button type="button" class="rounded-0 btn btn-success pulse-btn navbar-btn">Mock Test</button></a>-->
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" id="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <br><br><br>
+
+
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropd</h2>
+    <p>Resize<a href="#">I hate this</a> </p>
+    <p>Hover over the dropd button to open the dropd menu.</p>
+  </div>
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropd</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropd button to open the dropd menu.</p>
+  </div>
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropd</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropd button to open the dropd menu.</p>
+  </div>
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropd</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropd button to open the dropd menu.</p>
+  </div>
+  <div style="padding-left:16px">
+    <h2>Responsive Topnav with Dropd</h2>
+    <p>Resize the browser window to see how it works.</p>
+    <p>Hover over the dropd button to open the dropd menu.</p>
+  </div>
+  <div class="parallax">
+    
+    <p style="color: white; size: 29px; border: 10px; padding: 39px;">TCP (Transmission Control Protocol)
+      TCP works with the Internet Protocol (IP), which defines how computers send packets of data to each other
+      <br><br>
+      
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+    <div style="padding-left:16px">
+      <h2>Responsive Topnav with Dropd</h2>
+      <p>Resize the browser window to see how it works.</p>
+      <p>Hover over the dropd button to open the dropd menu.</p>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+
+      window.onscroll = function() {myFun()};
+
+      var navbar = document.getElementById("myTopnav");
+      var sticky = navbar.offsetTop;
+
+      function myFun() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        }
+      }
+
+/*
+function myFunction() {
+  document.getElementById("icon").style.display = "inline";
+}
+*/
+
+</script>
+
+</body>
+</html>
